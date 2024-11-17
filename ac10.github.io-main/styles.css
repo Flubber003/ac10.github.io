@@ -1,0 +1,93 @@
+﻿/* Reset and general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Example styling for a logo image in the header */
+.logo {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Prevents inline display issues */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.logo-left {
+    float: left;
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 15px; /* Adds space between the image and text */
+}
+
+.logo-right {
+    float: right;
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintains aspect ratio */
+    margin-left: 15px; /* Adds space between the image and text */
+}
+
+.custom-video {
+    width: 100%; /* Makes video (and poster) responsive */
+    max-width: 600px; /* Sets a maximum width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: rounds corners of video and poster */
+}
+
+/* Navigation styling */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+/* Main content styling */
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #efbf04;
+}
+
+    main h2 {
+        margin-bottom: 10px;
+    }
+
+    main p {
+        line-height: 1.6;
+    }
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
